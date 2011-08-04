@@ -1,0 +1,6 @@
+This is a fork of qtpanel[1,2]. I changed some things in the source
+because it does not offer runtime configuration. This repo is probably
+not interesting for you.
+
+[1] https://gitorious.org/qtpanel/qtpanel
+[2] https://bbs.archlinux.org/viewtopic.php?id=117528
