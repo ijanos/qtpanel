@@ -429,8 +429,6 @@ void DockApplet::updateLayout()
 	for(int i = 0; i < m_dockItems.size(); i++)
 	{
 		int spaceForThisClient = spaceForOneClient;
-		if(spaceForThisClient > 256)
-			spaceForThisClient = 256;
 		m_dockItems[i]->setTargetPosition(QPoint(currentPosition, 0));
 		m_dockItems[i]->setTargetSize(QSize(spaceForThisClient - 4, m_size.height()));
 		m_dockItems[i]->startAnimation();
