@@ -163,7 +163,7 @@ QRectF DockItem::boundingRect() const
 
 void DockItem::paint(QPainter* painter, const QStyleOptionGraphicsItem* option, QWidget* widget)
 {
-	painter->setPen(Qt::NoPen);
+	painter->setPen(QColor(50, 50, 50));
 	QPointF center(m_size.width()/2.0, m_size.height() + 32.0);
 	QRectF rect(0.0, 4.0, m_size.width(), m_size.height() - 8.0);
 	static const qreal roundRadius = 3.0;
