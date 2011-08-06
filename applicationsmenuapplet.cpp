@@ -49,7 +49,7 @@ ApplicationsMenuApplet::ApplicationsMenuApplet(PanelWindow* panelWindow)
 	m_textItem = new TextGraphicsItem(this);
 	m_textItem->setColor(Qt::white);
 	m_textItem->setFont(m_panelWindow->font());
-	m_textItem->setText("Applications");
+	m_textItem->setText("Apps");
 }
 
 ApplicationsMenuApplet::~ApplicationsMenuApplet()
