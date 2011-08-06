@@ -70,7 +70,7 @@ void PanelApplication::init()
 	setIconThemeName(settings.value("iconThemeName", "default").toString());
 
 	PanelWindow* panelWindow = new PanelWindow();
-	panelWindow->resize(128, 32);
+	panelWindow->resize(128, 24);
 	panelWindow->setLayoutPolicy(PanelWindow::FillSpace);
 	//panelWindow->setVerticalAnchor(PanelWindow::Max);
 	panelWindow->setDockMode(true);
