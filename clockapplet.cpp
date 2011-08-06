@@ -47,7 +47,7 @@ void ClockApplet::updateContent()
 
 QSize ClockApplet::desiredSize()
 {
-	return QSize(180, -1);
+	return QSize(m_textItem->boundingRect().size().width() + 16, m_textItem->boundingRect().size().height());
 }
 
 void ClockApplet::scheduleUpdate()
